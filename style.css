@@ -1,0 +1,199 @@
+body {
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	background-size: 1440px 900px;
+	background-color: #ffffff;
+}
+
+.read {
+	display: none;
+}
+
+h1 {
+	position: absolute;
+	font-family: sans-serif;
+	font-size: 22px;
+	margin-left: 10px;
+}
+
+video {
+	display: block;
+	width: 800px;
+	height: 600px;
+	position: absolute;
+}
+
+
+.container {
+	display: inline-block;
+}
+
+
+.dev {
+	display: block;
+	position: absolute;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	box-sizing: border-box;
+	top: 0;
+	margin-top: -2px;
+	margin-left: -1px;
+	border-width: 1px;
+	background-size: 1440px 900px;
+	background-color: #fcfcff;
+	overflow: hidden;
+}
+
+.ip5 {
+	width: 410px;
+	height: 600px;
+	z-index: 50;
+}
+
+.ip5r {
+	width: 600px;
+	height: 400px;
+	z-index: 40;
+}
+
+.ip8 {
+	width: 450px;
+	height: 700px;
+	z-index: 30;
+}
+
+.ip8r {
+	width: 700px;
+	height: 450px;
+	z-index: 20;
+}
+
+.ipa {
+	width: 566px;
+	height: 720px;
+	z-index: 5;
+}
+
+.ipar {
+	width: 720px;
+	height: 566px;
+	z-index: 10;
+}
+
+.screen1 {
+	width: 540px;
+	height: 340px;
+	z-index: 40;
+}
+
+.screen2 {
+	width: 1060px;
+	height: 370px;
+	z-index: 8;
+}
+
+.screen3 {
+	width: 1200px;
+	height: 500px;
+	z-index: 7;
+}
+
+.screen4 {
+	width: 1000px;
+	height: 666px;
+	z-index: 6;
+}
+
+
+
+.tab {
+	display: block;
+	position: absolute;
+	width: 33px;
+	height: 33px;
+	background-color: black;
+	-webkit-clip-path: polygon(56% 43%, 0% 100%, 5% 99%, 58% 45%, 98% 5%, 98% 98%, 6% 98%, 0 100%, 100% 100%, 100% 0%);
+	clip-path: polygon(56% 43%, 0% 100%, 5% 99%, 58% 45%, 98% 5%, 98% 98%, 6% 98%, 0 100%, 100% 100%, 100% 0%);
+	margin-right: -1px;
+	margin-bottom: -1px;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+}
+
+
+.con {
+	width: 1440px;
+	height: 900px;
+	z-index: 1;
+	display: none;
+}
+
+.cover {
+	position: fixed;
+	background-color: white;
+	width: 100vw;
+	height: 100vh;
+	z-index: 2;
+}
+
+video {
+	width: 1440px;
+	height: 900px;
+}
+
+.inner {
+	width: 1440px;
+	height: 900px;
+	z-index: 1;
+	display: none;
+}
+
+
+.selector {
+	display: block;
+	position: fixed;
+	background-color: white;
+	width: 35px;
+	height: 35px;
+	-webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+	clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+	z-index: 500;
+	bottom: 0;
+	right: 0;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	background-image: url(arrow-01.svg);
+	background-size: 100% 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
